@@ -1,0 +1,79 @@
+# =========================
+# Flask and Core Dependencies
+# =========================
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-PyMongo==2.3.0
+pymongo==4.6.0
+Werkzeug==2.3.7
+
+# =========================
+# Authentication and Security
+# =========================
+PyJWT==2.8.0
+bcrypt==4.1.2
+
+# =========================
+# AI and Machine Learning
+# =========================
+google-generativeai>=0.7.0
+
+# =========================
+# OCR and Image Processing
+# =========================
+pytesseract==0.3.10
+opencv-python==4.8.1.78
+Pillow==10.4.0
+PyMuPDF==1.23.8
+numpy==1.26.4
+
+# =========================
+# File Handling and Validation
+# =========================
+python-magic==0.4.27
+# Note: python-magic-bin is ONLY for Windows, skip it on Linux servers (Render uses Linux)
+# python-magic-bin==0.4.14  
+
+# =========================
+# Data Processing and Analysis
+# =========================
+pandas==2.1.4
+scikit-learn==1.3.2
+nltk==3.8.1
+regex==2023.10.3
+
+# =========================
+# HTTP and API
+# =========================
+requests==2.31.0
+urllib3==2.1.0
+
+# =========================
+# Environment and Configuration
+# =========================
+python-dotenv==1.0.0
+
+# =========================
+# Date and Time Handling
+# =========================
+python-dateutil==2.8.2
+
+# =========================
+# Logging and Monitoring
+# =========================
+loguru==0.7.2
+
+# =========================
+# Production Dependencies
+# =========================
+gunicorn==21.2.0
+eventlet==0.33.3
+
+# =========================
+# Development Dependencies (local only, can remove in prod)
+# =========================
+pytest==7.4.3
+pytest-flask==1.3.0
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
